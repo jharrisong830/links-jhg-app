@@ -1,0 +1,26 @@
+/* make stretched links effectively invisible */
+.stretched-link {
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+img#linkedin {
+    width: 1.5rem;
+    height: auto;
+}
+
+.card {
+    width: 24rem;
+    height: auto;
+    float: none;
+    margin: 0 auto;
+}
+
+p#no-spacing {
+    margin: 0;
+}
