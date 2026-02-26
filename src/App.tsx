@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import CustomThemeProvider from "./components/CustomThemeProvider";
 import CssBaseline from "@mui/material/CssBaseline";
 import Container from "@mui/material/Container";
+import Stack from "@mui/material/Stack";
 
 import MergeIcon from "@mui/icons-material/Merge";
 import LinkCard from "./components/LinkCard";
@@ -30,9 +31,11 @@ export default function App() {
                 <Navbar />
                 {/* header */}
 
-                {links.map((link, index) => (
-                    <LinkCard key={index} {...link} />
-                ))}
+                <Stack spacing={2} p={4}>
+                    {links.map((link, index) => (
+                        <LinkCard key={index} {...link} />
+                    ))}
+                </Stack>
             </Container>
         </CustomThemeProvider>
     );
