@@ -5,14 +5,34 @@ import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
 
 import MergeIcon from "@mui/icons-material/Merge";
+
 import LinkCard from "./components/LinkCard";
+import PageHeader from "./components/PageHeader";
 
 export default function App() {
     const links = [
         {
             title: "GitHub",
-            subtitle: "My GitHub profile",
+            subtitle: "@jharrisong830",
             link: "https://github.com/jharrisong830",
+            icon: <MergeIcon />
+        },
+        {
+            title: "LinkedIn",
+            subtitle: "in/johngraham830",
+            link: "https://www.linkedin.com/in/johngraham830",
+            icon: <MergeIcon />
+        },
+        {
+            title: "Email",
+            subtitle: "john@jhg.app",
+            link: "mailto:john@jhg.app",
+            icon: <MergeIcon />
+        },
+        {
+            title: "Personal Website",
+            subtitle: "jhg.app",
+            link: "https://jhg.app",
             icon: <MergeIcon />
         }
     ];
@@ -29,7 +49,12 @@ export default function App() {
                 }}
             >
                 <Navbar />
-                {/* header */}
+                
+                <PageHeader 
+                    title="John Graham"
+                    subtitles={["Stevens Institute of Technology - 2025", "B.S. Computer Science", "he/him/his"]}
+                    shouldEmphasizeTitle
+                />
 
                 <Stack spacing={2} p={4}>
                     {links.map((link, index) => (
