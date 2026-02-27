@@ -5,6 +5,9 @@ import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
 
 import MergeIcon from "@mui/icons-material/Merge";
+import WorkIcon from "@mui/icons-material/Work";
+import EmailIcon from "@mui/icons-material/Email";
+import PublicIcon from "@mui/icons-material/Public";
 
 import LinkCard from "./components/LinkCard";
 import PageHeader from "./components/PageHeader";
@@ -21,19 +24,19 @@ export default function App() {
             title: "LinkedIn",
             subtitle: "in/johngraham830",
             link: "https://www.linkedin.com/in/johngraham830",
-            icon: <MergeIcon />
+            icon: <WorkIcon />
         },
         {
             title: "Email",
             subtitle: "john@jhg.app",
             link: "mailto:john@jhg.app",
-            icon: <MergeIcon />
+            icon: <EmailIcon />
         },
         {
             title: "Personal Website",
             subtitle: "jhg.app",
             link: "https://jhg.app",
-            icon: <MergeIcon />
+            icon: <PublicIcon />
         }
     ];
     return (
