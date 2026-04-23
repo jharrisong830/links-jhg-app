@@ -52,10 +52,14 @@ export default function App() {
                 }}
             >
                 <Navbar />
-                
-                <PageHeader 
+
+                <PageHeader
                     title="John Graham"
-                    subtitles={["Stevens Institute of Technology - 2025", "B.S. Computer Science", "he/him/his"]}
+                    subtitles={[
+                        "Stevens Institute of Technology - 2025",
+                        "B.S. Computer Science",
+                        "he/him/his"
+                    ]}
                     shouldEmphasizeTitle
                 />
 

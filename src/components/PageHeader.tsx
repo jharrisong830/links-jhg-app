@@ -53,7 +53,7 @@ export default function PageHeader({
                     >
                         {subtitle}
                     </Typography>
-                </Grid>  
+                </Grid>
             ))}
         </Grid>
     );
