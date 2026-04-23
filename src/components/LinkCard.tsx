@@ -28,7 +28,10 @@ export default function LinkCard({
         >
             <CardActionArea href={link} target="_blank" rel="noreferrer">
                 <CardContent sx={{ flex: 1 }}>
-                    <Grid container sx={{ justifyContent: "center", "alignItems": "center" }}>
+                    <Grid
+                        container
+                        sx={{ justifyContent: "center", alignItems: "center" }}
+                    >
                         <Grid size="auto" sx={{ pr: 4 }}>
                             {icon}
                         </Grid>

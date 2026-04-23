@@ -42,7 +42,11 @@ export default function PageHeader({
                 <Grid
                     key={index}
                     size={12}
-                    sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}
+                    sx={{
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center"
+                    }}
                 >
                     <Typography
                         variant="h6"
