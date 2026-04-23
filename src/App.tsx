@@ -63,7 +63,7 @@ export default function App() {
                     shouldEmphasizeTitle
                 />
 
-                <Stack spacing={2} p={4}>
+                <Stack spacing={2} sx={{ p: 4 }}>
                     {links.map((link, index) => (
                         <LinkCard key={index} {...link} />
                     ))}
