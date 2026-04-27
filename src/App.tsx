@@ -1,4 +1,3 @@
-import Navbar from "./components/Navbar";
 import CustomThemeProvider from "./components/CustomThemeProvider";
 import CssBaseline from "@mui/material/CssBaseline";
 import Container from "@mui/material/Container";
@@ -9,8 +8,9 @@ import WorkIcon from "@mui/icons-material/Work";
 import EmailIcon from "@mui/icons-material/Email";
 import PublicIcon from "@mui/icons-material/Public";
 
-import LinkCard from "./components/LinkCard";
-import PageHeader from "./components/PageHeader";
+import Navbar from "@/components/Navbar";
+import LinkCard from "@/components/LinkCard";
+import PageHeader from "@/components/PageHeader";
 
 export default function App() {
     const links = [
