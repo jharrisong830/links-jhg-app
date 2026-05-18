@@ -9,11 +9,13 @@ export default function Navbar() {
             <AppBar position="static" elevation={0}>
                 <Toolbar>
                     <Grid
-                        display="flex"
-                        justifyContent="flex-start"
-                        alignItems="center"
                         size="auto"
-                        mr={2}
+                        sx={{
+                            display: "flex",
+                            justifyContent: "flex-start",
+                            alignItems: "center",
+                            mr: 2
+                        }}
                     >
                         <Typography
                             variant="h5"
